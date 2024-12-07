@@ -173,6 +173,7 @@ ul, ol {
 li {
     padding-left: var(--space-200);
     font: var(--text-preset-4);
+    color: var(--stone-600);
 }
 
 .preparation li::marker {
@@ -288,10 +289,26 @@ footer {
     .recipe-content {
         padding: 0;
     }
+
+    .nutrition-values h4 {
+        width: 14.25rem;
+    }
+    
+    .nutrition-values p {
+        width: 14.25rem;
+    }
 }
 
 @media screen and (min-width: 90rem) {
     main {
         max-width: 48rem;
+    }
+
+    .nutrition-values h4 {
+        width: 18rem;
+    }
+    
+    .nutrition-values p {
+        width: 18rem;
     }
 }
