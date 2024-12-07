@@ -157,12 +157,13 @@ h3 {
     color: var(--brown-800);
 }
 
-.preparation h3 {
+.preparation h2 {
     font: var(--text-preset-3);
     color: var(--rose-800);
 }
 
-ul, ol {
+ul,
+ol {
     display: flex;
     flex-direction: column;
     row-gap: var(--space-100);
@@ -210,7 +211,7 @@ li {
 }
 
 .instructions li {
-    padding-left: var(--space-200)
+    padding-left: var(--space-200);
 }
 
 .instructions li::marker {
@@ -272,7 +273,7 @@ footer {
         padding: var(--space-1600) var(--space-600);
         background: var(--stone-100);
     }
-    
+
     main {
         max-width: 38.5rem;
         border-radius: var(--space-300);
@@ -293,7 +294,7 @@ footer {
     .nutrition-values h4 {
         width: 14.25rem;
     }
-    
+
     .nutrition-values p {
         width: 14.25rem;
     }
@@ -307,7 +308,7 @@ footer {
     .nutrition-values h4 {
         width: 18rem;
     }
-    
+
     .nutrition-values p {
         width: 18rem;
     }
